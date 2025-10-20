@@ -1,0 +1,9 @@
+"*/**/*.{js,jsx,ts,tsx}":
+  - pnpx @biomejs/biome format --write
+  - pnpx @biomejs/biome lint --write --no-errors-on-unmatched --diagnostic-level=error
+
+"*/**/*.{json,md,yml,yaml}":
+  - pnpx @biomejs/biome format --write --no-errors-on-unmatched --diagnostic-level=error
+
+"*/**/*.{css,scss,sass}":
+  - pnpx @biomejs/biome format --write --no-errors-on-unmatched --diagnostic-level=error

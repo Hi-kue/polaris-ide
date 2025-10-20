@@ -1,0 +1,7 @@
+### Dependency Directories ###
+node_modules/
+jspm_packages/
+web_modules/
+
+### Obsidian ###
+.obsidian/

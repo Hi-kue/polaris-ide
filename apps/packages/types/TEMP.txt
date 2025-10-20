@@ -1,0 +1,8 @@
+Purpose:
+
+This is a temporary file, only used to allow
+git to track the currrent directory. Remove
+this file when you are working in this 
+current directory.
+
+Directory: apps/packages/types
