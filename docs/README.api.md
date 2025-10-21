@@ -11,108 +11,91 @@
       alt="Polaris IDE"
       width="100">
   </a>
-
-<h3 align="left">
-    Polaris IDE API
-</h3>
+  <h3 align="left">Polaris IDE API</h3>
   <p align="left">
-    An simple, intuitive, and collaborative code editor and compiler, for the web.
+    A simple, intuitive, and collaborative code editor and compiler, for the web.
     <br />
     <div align="center">
-        <a href="#">Report Bug</a>
-        ﹕
-        <a href="#">Request Feature</a>
-        ﹕
-        <a href="#">Documentation</a>
+      <a href="#">Report Bug</a>
+      ﹕
+      <a href="#">Request Feature</a>
+      ﹕
+      <a href="#">Documentation</a>
     </div>
   </p>
 </div>
 
-> [!WARNING]
-> Polaris IDE is in active development and is not yet available for extensive
-> public use. The eplatform is being built with best practices in mind to
-> make it accessible for all types of users. Additionally, the platform is
-> being build in public on [YouTube](https://www.youtube.com/@bytekodes)
-> with regular dev updates. As the codebase evolves, this `README`
-> will be updated to reflect structural and architectural changes for
-> the API only. Refer to other docs with the following format `README.*.md`
-> for more information.
+## Overview
 
-Welcome to the Polaris IDE API documentation! Before going over the details
-of Polaris's server architecture, lets talk a little bit about what Polaris
-even is. Polaris is:
+Welcome to the Polaris IDE API documentation! This document provides technical details about the server architecture and API endpoints that power Polaris IDE.
+
+### What is Polaris IDE?
 
 > An intuitive collaborative code editor and compiler, for the web.
 
-It's job is simple, provide the ability to share and work with other
-devs with minimal friction. Other tools like [Sharepad IO](https://sharepad.io/),
-and [Tuple](https://tuple.app/) have done this but not to the level
-of expentency. Tuple is great, but paid, and isn't actually an IDE
-of any sort, just a collaborative environment. Sharepad is also
-really nice, but is missing ALOT of features we have all become
-accustomed to when using regular editors like VSC, Jetbrains
-IDEs like IntelliJ, WebStorm, Rider, etc. We wanted to address
-the following issues:
+Polaris provides developers the ability to share and work together with minimal friction. Unlike existing solutions such as [Sharepad IO](https://sharepad.io/) and [Tuple](https://tuple.app/), Polaris addresses key pain points:
 
-- The user should be able to use the editor without signing in, this
-  session would be ephemerial.
-- The user should be able to select their language and be provided
-  with everything the language has to offer.
-- The user should be able to switch to prior versions of a language
-  if necessary.
-- The user should be able to run the program with no issues.
-- The user should be able to customize the editor to their preferred
-  liking by updating a configuration file called `config.lua`.
+- **Ephemeral Sessions**: Use the editor without signing in for quick, temporary sessions;
+- **Language Support**: Select your language and access its full feature set (through LSPs);
+- **Version Flexibility**: Switch between different language versions as needed (Python 2, Python 3);
+- **Seamless Execution**: Run programs without configuration hassles;
+- **Customization**: Personalize the editor through `config.lua` configuration files, and more!
 
-## Table of Contents <!-- omit in toc -->
+## Table of Contents
 
+- [Overview](#overview)
+  - [What is Polaris IDE?](#what-is-polaris-ide)
+- [Table of Contents](#table-of-contents)
+- [Architecture](#architecture)
 - [Getting Started](#getting-started)
-- [Contributors](#contributors)
-- [Contribution](#contribution)
+- [API Reference](#api-reference)
+- [Authentication](#authentication)
+- [Contributing](#contributing)
 - [License](#license)
+
+## Architecture
+
+> **TODO**: Document the server architecture, technology stack, and key design decisions.
 
 ## Getting Started
 
-> **TODO**: Populate this area with information about how to get started.
+> **TODO**: Populate this section with the following:
+>
+> - Prerequisites and system requirements
+> - Installation instructions
+> - Environment setup
+> - Database configuration
+> - Running the API locally
 
-## Contributors
+## API Reference
 
-<!-- ALL-CONTRIBUTORS-LIST:START - DO NOT REMOVE OR MODIFY THIS SECTION -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/Hi-kue">
-          <img src="https://avatars.githubusercontent.com/u/93727204?v=4" width="100" alt="Hi-kue"/>
-        </a>
-        <br/>
-        <b>Hi-kue</b>
-      </td>
-      <td width="50"></td>
-      <td align="center">
-        <a href="">
-          <img src="https://eu.ui-avatars.com/api/?name=Anon+User&size=250" width="100" alt="Anon User"/>
-        </a>
-        <br/>
-        <b>You</b>
-      </td>
-    </tr>
-  </table>
-</div>
+> **TODO**: Document API endpoints including but not limited to:
+>
+> - Base URL and versioning
+> - Available endpoints
+> - Request/response formats
+> - Example requests and responses
+> - Error codes and handling
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+## Authentication
 
-## Contribution
+> **TODO**: Describe authentication such as the following:
+>
+> - API key generation
+> - Token-based authentication
+> - Session management for ephemeral users
+> - Rate limiting policies
 
-Please see our [Contribution Guidelines](../.github/CONTRIBUTING.md) for more information
-on how to contribute to this project if you are working as an outside collaborator or
-interesting in this project at all.
+## Contributing
+
+We welcome contributions to the Polaris IDE API! Please refer to our [Contributing Guidelines](../CONTRIBUTING.md) in the root directory for detailed information on:
+
+- Code of Conduct
+- Development workflow
+- Pull request process
+- Coding standards
+- Testing requirements
 
 ## License
 
-This project is currently licensed under `GNU GPLV3`, please check the
-[LICENSE](../LICENSE) for more information.
+This project is licensed under the **GNU General Public License v3.0**.See the [LICENSE](../LICENSE) file in the root directory for the complete license text and terms.
