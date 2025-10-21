@@ -80,35 +80,28 @@ the following issues:
 <!-- ALL-CONTRIBUTORS-LIST:START - DO NOT REMOVE OR MODIFY THIS SECTION -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; padding: 20px 0;">
-  <div style="text-align: center; flex: 0 0 auto;">
-    <a href="https://github.com/Hi-kue" style="text-decoration: none; color: inherit;">
-      <img src="https://avatars.githubusercontent.com/u/93727204?v=4" 
-           width="100" 
-           height="100" 
-           alt="Hi-kue"
-           style="border-radius: 50%; border: 3px solid #e1e4e8; transition: transform 0.2s, border-color 0.2s;"
-      />
-      <div style="margin-top: 12px; font-weight: 600; font-size: 14px;">
-        Hi-kue
-      </div>
-    </a>
-  </div>
-
-  <div style="text-align: center; flex: 0 0 auto;">
-    <a href="" style="text-decoration: none; color: inherit;">
-      <img src="https://eu.ui-avatars.com/api/?name=Anon+User&size=250" 
-           width="100" 
-           height="100" 
-           alt="Anon User"
-           style="border-radius: 50%; border: 3px solid #e1e4e8; transition: transform 0.2s, border-color 0.2s;"
-      />
-      <div style="margin-top: 12px; font-weight: 600; font-size: 14px;">
-        You
-      </div>
-    </a>
-  </div>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/Hi-kue">
+          <img src="https://avatars.githubusercontent.com/u/93727204?v=4" width="100" alt="Hi-kue"/>
+        </a>
+        <br/>
+        <b>Hi-kue</b>
+      </td>
+      <td width="50"></td>
+      <td align="center">
+        <a href="">
+          <img src="https://eu.ui-avatars.com/api/?name=Anon+User&size=250" width="100" alt="Anon User"/>
+        </a>
+        <br/>
+        <b>You</b>
+      </td>
+    </tr>
+  </table>
 </div>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
